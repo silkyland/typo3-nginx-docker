@@ -1,0 +1,35 @@
+# TYPO3
+/typo3conf/*
+/typo3temp/*
+/typo3/sysext/core/Resources/Private/
+/typo3/sysext/core/Classes/Doctrine/
+
+# Composer
+/vendor/
+/composer.phar
+/composer.lock
+
+# Cache
+/cache/
+/.htaccess
+/_.htaccess
+/_.htaccess.au
+/_.htaccess.bak
+/_.htaccess.txt
+/_.htaccess.orig
+
+# Logs
+/typo3temp/var/logs/
+
+# Generated files
+/typo3temp/autoload*
+/typo3temp/var/cache/*
+/typo3temp/var/Cache/*
+/typo3temp/var/transient/*
+/typo3temp/var/Transient/*
+/typo3temp/var/sessions/*
+
+# Miscellaneous
+/.idea/
+/Thumbs.db
+.DS_Store
